@@ -1,0 +1,35 @@
+.clock .ui-icon {
+    background-color: transparent;
+    background-image: url(../img/icons/clock.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.phone .ui-icon {
+    background-image: url(../img/icons/iphone.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.ui-icon-filter {
+    background-color: transparent;
+    background-image: url(../img/icons/wrench.png);
+    background-size:18px;
+    border-radius:0;
+}
+
+
+.block {
+	margin-bottom:2em;
+}
+
+.block label {
+	display:inline-block;
+	font-weight:bold;
+	width:9em;
+}
+
+span.detail {	
+	display:inline-block;
+	width:120px;
+}

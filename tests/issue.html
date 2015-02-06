@@ -1,0 +1,47 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<html lang="en"> 
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+		<title>Samples for Issue Embeds</title> 
+		
+		<style type="text/css">
+			body {
+				background: #222;
+			}
+			
+			#wrap {
+				background: #fff;
+				margin:0 auto;
+				padding:20px 30px;
+				width:900px;
+			}
+		</style>
+	</head> 
+	<body>
+		<div id="wrap">
+			<h1>Issue Embed Samples</h1>
+			
+			<h2>Create Issue</h2>
+			
+			<iframe frameborder="0" height="580px" width="900px" src="/embed/issues/create/41/?key=ea20a33710e8a17b29097e70ba7db1c2&reporter_id=3"></iframe>
+			
+			<h4>Invalid key:</h4>
+			
+			<iframe frameborder="0" height="80px" width="900px" src="/embed/issues/create/41/?key=ea20a33710e8a17b29097e70ba7db1c2"></iframe>
+			
+			<h4>Invalid company/project:</h4>
+			
+			<iframe frameborder="0" height="80px" width="900px" src="/embed/issues/create/1/?key=ea20a33710e8a17b29097e70ba7db1c2&reporter_id=3"></iframe>
+			
+			<h4>Missing reporter_id parameter:</h4>
+			
+			<iframe frameborder="0" height="80px" width="900px" src="/embed/issues/create/41/?key=baddfsd"></iframe>
+			
+			<h2>List Issues</h2>
+			
+			<iframe frameborder="0" height="580px" width="900px" src="/embed/issues/index/41/?key=ea20a33710e8a17b29097e70ba7db1c2&reporter_id=3"></iframe>
+			
+		</div>
+	</body> 
+</html>

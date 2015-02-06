@@ -1,0 +1,12 @@
+body .container {
+	overflow: hidden;
+	width:880px;
+}
+
+textarea, input.text {
+	width:280px;
+}
+
+.triangle-border {
+	width:750px;
+}

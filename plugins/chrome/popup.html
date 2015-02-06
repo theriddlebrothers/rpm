@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+   
+    <link href="main.css"rel="stylesheet" />
+
+    <!-- JavaScript and HTML must be in separate files for security. -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.autocomplete.js"></script>
+    <script src="datepickr.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+  
+  <div id="container">
+  	<h1>RPM</h1>
+  	<div id="message" style="display:none;"><p>Sample message here</p></div>
+  	<form id="login" action="" method="post">
+	    <p>
+	    	<label>Username</label>
+	    	<input type="text" name="username" />
+	    </p>
+	    
+	    <p>
+	    	<label>Password</label>
+		    <input type="password" name="password" />
+	    </p>
+	    
+	    <p>
+	    	<button id="login_button" type="submit">Login</button>
+	    </p>
+	</form>   
+	
+	<form id="timesheet" action="" method="post">
+		<p>
+	    	<label>Task</label>
+	    	<input type="text" name="task" />
+	    	
+	    	<input type="hidden" name="task_id" />
+	    </p>
+	    
+	    <p>
+	    	<label>Date</label>
+	    	<input id="log_date" type="text" name="log_date" />
+	    </p>
+	    
+	    <p>
+	    	<label>Time</label>
+	    	<input type="text" name="hours" />
+	    </p>
+	    
+	    <p>
+	    	<label>Description</label>
+	    	<input type="text" name="description" />
+	    </p>
+	    
+	    <p>
+	    	<button id="logtime" type="submit">Submit</button>
+	    </p>
+	</form> 
+	
+  </div>
+  </body>
+</html>

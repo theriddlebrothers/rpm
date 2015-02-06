@@ -1,0 +1,356 @@
+
+.process_body
+{
+	background: #E6E6E6 url(/images/process/background.jpg) no-repeat;
+}
+
+#process_container 
+{
+	font-family: "Helvetica Neue", Arial, sans-serif;
+
+}
+
+
+/******************************************************
+/
+/ HEADER
+/
+/******************************************************/
+
+
+#process_container header {
+
+	margin: -40px 0 20px 0;
+	padding: 0;
+	width: 100%;
+	height: 85px;
+
+border-bottom: thin solid #ffffff;
+}
+
+#process_container header img 
+{
+	float: left;
+}
+
+
+
+/******************************************************
+/ NAV
+/******************************************************/
+
+#process_container header ul
+{
+	float: right;
+	list-style: none;
+	margin: 0 0 0 0px;
+width: 670px;
+
+}
+
+#process_container header ul li
+{
+	float: left;
+	margin: 40px 40px 0 0;
+}
+
+#process_container header ul li a
+{
+	color: #23486D;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 0 0 0 25px;
+
+}
+
+
+.nav1 {background: transparent url(/images/process/number1.png) no-repeat;}
+.nav2 {background: transparent url(/images/process/number2.png) no-repeat;}
+.nav3 {background: transparent url(/images/process/number3.png) no-repeat;}
+.nav4 {background: transparent url(/images/process/number4.png) no-repeat;}
+
+
+
+
+/******************************************************
+/
+/ HOME CONTENT
+/
+/******************************************************/
+
+#home_icon_holder
+{
+	position: relative;
+	display: block;
+
+}
+
+#process_home_intro
+{
+	width: 250px;
+	margin: 50px 0 0 0;
+
+}
+
+.letsbegin h1
+{
+	display: inline;
+	float: left;
+	display: block;
+}
+
+.letsbegin 
+{
+	margin: 0 0 20px 0;
+	display: block;
+	height: 40px;
+}
+
+.letsbegin a
+{
+	display: inline;
+	float: left;
+	display: block;
+	margin: 0 0 0 10px;
+}
+
+
+.preproduction_icon 
+{
+	position: absolute;
+	top: 80px;
+	left: 300px;
+
+}
+
+.production_icon 
+{
+	position: absolute;
+	left: 470px;
+	top: 0px;
+}
+
+.maintenance_icon 
+{
+	position: absolute;
+	left: 670px;
+	top: 50px;
+}
+
+.analysis_icon 
+{
+	position: absolute;
+	left: 800px;
+	top: 90px;
+}
+
+
+
+#process_container #content
+{
+	clear: both;
+	width: 100%;
+}
+
+#process_footer
+{
+	clear: both;
+	width: 100%;
+	padding: 0;
+	display: block;
+	float: left;
+	margin: 50px 0 20px 0;
+}
+
+#process_footer h3
+{
+	font-size: 11px;
+	color: #aaaaaa;
+	font-style: italic;
+	padding: 0 0 5px 10px;
+	width: 968px;
+	margin: 0 0 2px 0;
+}
+
+#process_footer ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+#process_footer ul li
+{
+	list-style: none;
+	width: 280px;
+	margin: 0 5px 0 0;
+	background: #e6e6e6;
+	float: left;
+	padding: 10px 10px 0 20px;
+	display: block;
+}
+
+#process_footer ul li a
+{
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 13px;
+	margin: 0 0 5px 0;
+	display: block;
+}
+
+#process_left
+{
+	width: 275px;
+	float: left;
+}
+
+#process_left .block
+{
+	border-top: 1px solid #dddddd;
+	padding-top: 10px;
+	margin: 10px 0 0 0;
+}
+
+#process_left .block h2
+{
+ font-size: 14px;
+}
+
+#process_left p.sectionlogo
+{
+	text-align: center;
+}
+
+#process_left p img
+{
+	text-align: center;
+}
+
+#process_left h1
+{
+	color: #22476C;
+	font-weight: normal;
+}
+
+#process_right
+{
+	float: left;
+	width: 625px;
+	margin: 30px 0 0 50px;
+}
+
+#process_right h3
+{
+	font-size: 18px;
+
+}
+
+#process_right ul
+{
+	padding: 0;
+	margin: 0 0 20px 0;
+display: block;
+float: left;
+}
+
+#process_right ul li
+{
+	list-style: none;
+	background: #eeeeee;
+	padding: 15px 10px 1px 15px;
+	margin: 0 0 3px 0;
+	display: block;
+float: left;
+width: 600px;
+}
+
+#process_right ul li div
+{
+
+	display: block;
+
+
+
+}
+
+#process_right ul li div p
+{
+
+	float: left;
+display: block;
+width: 290px;
+
+}
+
+#process_right ul li span
+{
+	float: left;
+	display: block;
+	width: 290px;
+}
+
+#process_right ul li h3
+{
+	color: #22476C;
+}
+
+#process_right ul li a.expand
+{
+	float: right;
+}
+
+#process_right ul li p a.article
+{
+	text-decoration: none;
+	color: #22476C;
+	margin: 30px 0 0 0;
+	display: block;
+	height: 20px;
+	
+	padding: 2px 0 5px 30px;
+	background: transparent url(/images/process/article_icon.png) no-repeat;
+}
+#process_right div.block
+{
+	padding-top: 0px;
+	margin: 0px 0 0 0;
+	clear: both;
+display: block;
+}
+
+#process_right div.block h2
+{
+ font-size: 18px;
+color: #22476C;
+}
+
+#process_right div.block p img
+{
+	float: left;
+	padding:0 15px 15px 0;
+}
+
+img.production_process
+{
+margin: -30px 0 0 -40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+v1.15 - 8/11/2011
+=======================
+* CSS/JS minification
+
+
+v1.14 - 8/10/2011
+=======================
+* PDF attachment of retainers
+
+v1.13 - 7/22/2011
+=======================
+* Retainer agreements
+
+v1.12 - 6/1/2011
+=======================
+* Invoice Reminders
+* Invoice PDF attachments
+* Bug/interface fixes
+
+v1.11 - 4/7/2011
+=======================
+* "Remember Me" checkbox
+* Improved file browsing to link to specific URLs (via hash)
+* Dropbox folder browsing for projects
+* Custom 404/Application error pages
+* Ability to sort Functional Requirements and other table-based document sections using drag/drop
+* View/Edit button for requirement documents
+* Bug Fix: Allow sorting for new estimate and invoice line rows
+* Added invoice filters
+* Updated filter form style
+
+v1.10 - 4/6/2011
+=======================
+* Who Will Take The Lead app
+* Mailing List Integration for Contacts
+* Additional print support for invoices and estimates (client view)
+* Dialog searching
+
+v1.09 - 3/8/2011
+=======================
+* Company activities
+* .process Section
+* Issues tracking
+* Password Reset
+* Removal of public keys (requires client username/passwords)
+* Added action_keys" which can be used as keys that expire after specified date/time. Currently used only for password reset links.
+* Branded emails
+* Parent projects
+
+v1.08- 03/3/2011
+=======================
+* User roles and remove granular permissions.
+* Company "Status" dropdown and dashboard listing of new business
+* Creative Brief document type
+* Documents listing in projects page
+* Document selection via dialog (using icons from http://www.iconarchive.com/show/soft-scraps-icons-by-deleket.html)
+* Project selection via dialog
+* Company selection via dialog
+* Task selection via dialog
+* Style updates throughout
+* Fixes for staging server
+
+v1.07 - 02/17/2011
+=======================
+* Additions to Requirements Document Generator by case-type.
+
+v1.06 - 02/13/2011
+=======================
+* Requirements Document Generator
+
+v1.05 - 02/12/2011
+=======================
+* Integrate WebSVN
+
+v1.04 - 01/30/2011
+=======================
+* Root URL auto-redirects to dashboard (instead of login screen) if a user is already logged in.
+* Generate Client Link form defaults to current URL.
+* Integrated CloudApp into Client URL generator.
+* Removed client view link from Estimate view (confusing interface, and didn't use CloudApp integration).
+* Added AJAX searching.
+* Dropbox Integration

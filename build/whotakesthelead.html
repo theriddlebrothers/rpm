@@ -1,0 +1,85 @@
+<html>
+
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+<script>
+
+function submitClick()
+{
+
+	var nameArr = new Array('wttl_name.png', 'wttl_name2.png', 'wttl_name3.png');
+	var randomNum = Math.floor(Math.random()*3); /* Pick random number between 1 and 2 */
+	var nameNum = randomNum;
+	
+	
+	$('#name').html('');
+	$('#name').prepend('<img style="display:none" src="' + nameArr[nameNum] + '" />');
+	
+	//$('#name img').fadeIn();
+	$('#name img').show("scale", { percent: 100, direction: "horizontal", origin: "center" }, 500);;
+	
+
+}
+
+</script>
+
+<style>
+
+body{
+
+background: black;
+text-align: center;
+}
+
+
+#container
+{
+
+background: black url(wttl_bg.jpg) no-repeat;
+width: 798px;
+height: 500px;
+margin: 0 auto;
+text-align: center;
+padding: 30px;
+}
+
+
+
+#name
+{
+
+display: block;
+width: 427px;
+height: 163px;
+margin: 0 auto;
+margin-top: 150px;
+margin-left: 160px;
+}
+
+#container input
+{
+
+margin: 90px 70px 0 0;
+height: 30px;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+<div id="container">
+
+	<div id="name"></div>
+	<input type="submit" onclick="submitClick()" value="WHO TAKES THE LEAD?"/>
+</div>
+
+
+</body>
+</html>

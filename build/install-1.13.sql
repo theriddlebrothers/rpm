@@ -1,0 +1,1 @@
+UPDATE projects SET project_type = 'Hourly Maintenance' WHERE project_type='Retainer';
